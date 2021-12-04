@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameRulesActivity">
+
+    <TextView
+        android:layout_margin="30sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="@string/game_rules"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_margin="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_rules"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:background="@drawable/round_style"
+        android:layout_marginHorizontal="50sp"
+        android:textSize="30sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_back"/>
+
+</LinearLayout>

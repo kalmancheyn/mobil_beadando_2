@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuActivity">
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:textSize="80sp"
+            android:layout_marginTop="150sp"
+            android:layout_marginBottom="60sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/game_name" />
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <Button
+        android:id="@+id/btnGameStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/game_start_btn"
+        android:textSize="26sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnGameRules"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:layout_marginBottom="10sp"
+        android:text="@string/game_rules_btn"
+        android:textSize="26sp"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/btnGameExit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30sp"
+        android:text="@string/btn_exit"
+        android:textSize="26sp"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>
