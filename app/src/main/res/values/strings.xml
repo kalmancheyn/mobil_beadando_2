@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="new_game">Új játék</string>
+    <string name="tv_start">Kör kezd</string>
+    <string name="game_name">Amőba</string>
+    <string name="game_start_btn">Játék kezdése</string>
+    <string name="game_rules_btn">Játék szabályok</string>
+    <string name="game_rules">Szabályok:</string>
+    <string name="btn_back">Vissza</string>
+    <string name="btn_exit">Kilépés</string>
+    <string name="str_rules">- A Kör illetve Iksz csatája\n- Az nyer, akinek összegyűlik 5 egymás mellett\n</string>
+</resources>
