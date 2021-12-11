@@ -56,16 +56,13 @@ class TicTacToeView(context: Context?, attrs: AttributeSet?) : View(context, att
     }
 
     private fun drawGameArea(canvas: Canvas) {
-        // border
         canvas.drawRoundRect(0f, 0f, width.toFloat(), height.toFloat(),60f,60f, paintBorderLine)
 
-        // four horizontal lines
         canvas.drawLine(0f, (height / 5).toFloat(), width.toFloat(), (height / 5).toFloat(), paintLine)
         canvas.drawLine(0f, (2 * height / 5).toFloat(), width.toFloat(), (2 * height / 5).toFloat(), paintLine)
         canvas.drawLine(0f, (3 * height / 5).toFloat(), width.toFloat(), (3 * height / 5).toFloat(), paintLine)
         canvas.drawLine(0f, (4 * height / 5).toFloat(), width.toFloat(), (4 * height / 5).toFloat(), paintLine)
 
-        // four vertical lines
         canvas.drawLine((width / 5).toFloat(), 0f, (width / 5).toFloat(), height.toFloat(), paintLine)
         canvas.drawLine((2 * width / 5).toFloat(), 0f, (2 * width / 5).toFloat(), height.toFloat(), paintLine)
         canvas.drawLine((3 * width / 5).toFloat(), 0f, (3 * width / 5).toFloat(), height.toFloat(), paintLine)
